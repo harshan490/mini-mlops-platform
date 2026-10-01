@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+backend/venv/
+.venv/
+
+# Runtime data (recreated by `python -m app.seed`)
+backend/mlops.db
+backend/mlops.db-*
+backend/storage/
+backend/.env
+
+# Node / build output
+node_modules/
+frontend/dist/
+*.tsbuildinfo
+.next/
+
+# Office lock files
+~$*
+recordings/

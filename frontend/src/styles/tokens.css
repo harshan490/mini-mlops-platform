@@ -1,0 +1,42 @@
+/* Design tokens extracted from the eight mockups in /design.
+   Colours are "R G B" triplets so Tailwind can apply alpha: rgb(var(--x) / 0.5). */
+:root {
+  --bg-0: 7 11 26; /* #070B1A */
+  --bg-1: 11 16 48; /* #0B1030 */
+  --glass: 15 22 50; /* rgba(15,22,50,0.55) */
+  --glass-alpha: 0.55;
+  --line: 90 130 255; /* border rgba(90,130,255,0.25) */
+  --line-alpha: 0.25;
+  --ink: 230 235 255; /* #E6EBFF */
+  --muted: 138 148 184; /* #8A94B8 */
+  --accent: 59 130 246; /* switchable in Settings */
+
+  --m-blue: 59 130 246;
+  --m-violet: 139 92 246;
+  --m-cyan: 34 211 238;
+  --m-emerald: 16 185 129;
+  --m-amber: 245 158 11;
+  --m-pink: 236 72 153;
+  --m-red: 239 68 68;
+
+  --grid-gap: 20px;
+  --sidebar-w: 88px;
+  --radius-card: 18px;
+  --glow: 0 0 30px rgba(60, 110, 255, 0.15);
+  --mx: 50%;
+  --my: 50%;
+  color-scheme: dark;
+}
+
+:root[data-theme="light"] {
+  --bg-0: 236 240 252;
+  --bg-1: 222 229 250;
+  --glass: 255 255 255;
+  --glass-alpha: 0.7;
+  --line: 80 110 210;
+  --line-alpha: 0.22;
+  --ink: 16 22 52;
+  --muted: 82 94 136;
+  --glow: 0 10px 30px rgba(60, 90, 180, 0.12);
+  color-scheme: light;
+}
